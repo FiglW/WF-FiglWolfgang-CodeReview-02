@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="C:\Users\wolfg\Documents\code_factory\CodeReview_project2\css\style.css">
+    <link href="https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
+
+    <title>
+        CF_2
+    </title>
+</head>
+
+<body>
+    <header class="header">
+        <img id="logo" src="C:\Users\wolfg\Documents\code_factory\CodeReview_project2\img\logo.png" alt="insuranceLogo">
+        <img id="banner" src="C:\Users\wolfg\Documents\code_factory\CodeReview_project2\img\banner.png" alt="banner">
+    </header>
+    <!--the NAVBAR-->
+    <nav class="navbar">
+        <ul class="item">
+            <li class="item-list"><a href="main.html" alt="home">Home</a></li>
+            <li class="item-list"><a href="team.html" alt="team">Team</a></li>
+        </ul>
+    </nav>
+    <!--Boxes-->
+    <div id="first_section">
+        <div class="flexbox1">
+            <p id="para1">Car insurance</p>
+            <div class="calcbox">
+                <p>Great coverage begins<br>
+                    with a custom quote</p>
+
+                    <!--InputBoxes-->
+                    
+                <div class="inputbox">
+                    <label for="name">Name:<input type="text" name="name" id="name"></label>
+                </div>
+                <div class="inputbox">
+                    <label for="age">Age:<input type="number" name="age" id="age"></label>
+                </div>
+                <div class="inputbox">
+                    <label for="country">Country:</label>
+                    <select id="country">
+                        <option value="austria">Austria</option>
+                        <option value="hungary">Hungary</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                </div>
+                <div class="inputbox">
+                    <label for="hp">Horsepower:<input type="number" id="hp" name="hp"></label>
+                </div>
+                <button id="calcBtn">Calculate</button>
+                <p id="output">calculation goes there</p>
+            </div>
+        </div>
+    </div>
+    <div id="second_section">
+        <div class="flexbox2">
+            <p id="para2">Un-complication Car coverage <br> Understanding your coverage options shouldn't be so hard. <br> We'll guide you through available coverage types, <br> starting with who and what is covered.</p>
+        </div>
+    </div>
+    <!--Benefits-->
+    <div class="flexbox3">
+        <div class="benefits">
+            <h1>What comes standard</h1>
+            <p>The coverage you need</p>
+            <ul class="standardbox">
+                <li class="standardbox-list">Bodily Injury Liability</li>
+                <li class="standardbox-list">Property Damage</li>
+                <li class="standardbox-list">Medical Payments</li>
+            </ul>
+            <h3>Benefits</h3>
+            <p>12-month rate guarantee | 24/7 customer <br>
+                service | Lifetime Repair Guarantee</p>
+        </div>
+        <div class="benefits">
+            <h1>Add-on protection & coverage</h1>
+            <p>For more peace of mind</p>
+            <ul class="standardbox">
+                <li class="standardbox-list">Better Car Replacement</li>
+                <li class="standardbox-list">Towing & Labor</li>
+                <li class="standardbox-list">Rental Car Coverage</li>
+            </ul>
+            <h3>Earned Benefits</h3>
+            <p>Accident Forgiveness¹ | New Car Replacement™ <br></p>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="foot">
+        <nav class="navbar-bottom">
+            <ul class="item-bottom">
+                <li class="list-item-bottom"><a href="">Home</a></li>
+                <li class="list-item-bottom"><a href="">Team</a></li>
+            </ul>
+            <a href="https://www.codefactory.wien">
+                <img id="foologo" src="C:\Users\wolfg\Documents\code_factory\CodeReview_project2\img\logo-inv.png" alt="insuranceLogo">
+            </a>
+        </nav>
+        <div id="footer">&copy;Figl Wolfgang -Code Factory 2019</div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
